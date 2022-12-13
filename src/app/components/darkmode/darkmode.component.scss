@@ -1,0 +1,22 @@
+.btn-mode {
+  background: var(--color-primary);
+  color: #fff;
+  padding: 1rem;
+  width: 150px;
+  border-radius: 30px;
+  box-shadow: inset 0 0 0 3px rgba(255, 255, 255, .2), 0 0 0 5px rgba(0, 0, 0, .1);
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.btn-mode:hover{
+  transform: scale(1.1);
+}
+
+.btn-mode svg {
+  margin-right: .5rem;
+}
